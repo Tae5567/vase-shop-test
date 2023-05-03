@@ -1,0 +1,1 @@
+export const HTTP_BAD_REUEST = 400;

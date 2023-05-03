@@ -1,0 +1,21 @@
+<div class="container">
+  <img [src]="vase.imageUrl" [alt]="vase.name"/>
+
+  <div class="details">
+    <div class ="header">
+      <span class ="name">
+        {{vase.name}}
+      </span>
+    </div>
+    <div class="product-desc">
+      {{vase.description}}
+    </div>
+    <div class="price">
+      <span>
+        {{vase.price | currency}}
+      </span>
+    </div>
+   <!--<app-edit-products></app-edit-products> &nbsp; <app-delete-product></app-delete-product> -->
+
+  </div>
+</div>

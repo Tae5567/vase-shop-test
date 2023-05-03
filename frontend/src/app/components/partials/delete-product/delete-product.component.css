@@ -1,0 +1,18 @@
+.btn-del{
+  display: block;
+  margin: 20px auto 0;
+  margin-top: 10px;
+  margin-left: 0;
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  color: #eee;
+  font-weight: 700;
+  box-shadow: 1px 4px 10px 1px #aaa;
+  background: -webkit-linear-gradient(left, #207cca 0%,#9f58a3 100%);
+}
+
+.btn-del:hover{
+  cursor: pointer;
+}

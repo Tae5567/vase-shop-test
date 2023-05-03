@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  width:100%;
+  min-width:1000px;
+  height:auto;
+}
+
+html{
+  font-size: 18px;
+}
+
+html,
+button{
+  font-family: "Lato", sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.signup-form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+.form-input{
+  height: 35px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding-left: 15px;
+  color: black;
+}
+
+.form-btn{
+  height: 35px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

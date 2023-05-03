@@ -1,0 +1,83 @@
+<div class="row">
+        <div class="col-m-1 text-center">
+          <h2> Add Products </h2>
+        </div>
+
+        <div class="row">
+          <form [formGroup]="addProductForm" novalidate class="form">
+            <div class="row">
+              <div class="col-m-2"></div>
+              <div class="col-m-4">Product Name</div>
+              <div class="col-m-4">
+                <input type="text" formControlName="Name" class="form-control"/>
+              </div>
+              <div class="show-validation" *ngIf="fc.Name.errors && isSubmited">
+                <div *ngIf="fc.Name.errors.required">
+                    Product needs a name!
+                </div>
+              </div>
+              <div class="col-m-2"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-m-2"></div>
+              <div class="col-m-4">Price</div>
+              <div class="col-m-4">
+                <input type="price" formControlName="Price" class="form-control"/>
+              </div>
+              <div class="show-validation" *ngIf="fc.Price.errors && isSubmited">
+                <div *ngIf="fc.Price.errors.required">
+                    Product needs a price!
+                </div>
+              </div>
+              <div class="col-m-2"></div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-m-2"></div>
+              <div class="col-m-4">Product Description</div>
+              <div class="col-m-4">
+                <textarea formControlName="Description" class="form-control"></textarea>
+              </div>
+              <div class="show-validation" *ngIf="fc.Description.errors && isSubmited">
+                <div *ngIf="fc.Description.errors.required">
+                    Product needs description!
+                </div>
+                <div *ngIf="fc.Description.errors.minLength">
+                  Description should be minimum 50 characters
+              </div>
+
+              </div>
+              <div class="col-m-2"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-m-2"></div>
+              <div class="col-m-4">Product Image URL</div>
+              <div class="col-m-4">
+                <input type="text" formControlName="ImageURL" class="form-control"/>
+              </div>
+              <div class="show-validation" *ngIf="fc.ImageURL.errors && isSubmited">
+                <div *ngIf="fc.ImageURL.errors.required">
+                    Enter Image Url!
+                </div>
+              </div>
+              <div class="col-m-2"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-m-2"></div>
+              <div class="col-m-8">
+                <button type="submit" (click)="onSubmit()" class ="btn-add">Add Products</button>
+              </div>
+
+              <div class="col-m-2"></div>
+            </div>
+          </form>
+      </div>
+</div>
+
+
+
+

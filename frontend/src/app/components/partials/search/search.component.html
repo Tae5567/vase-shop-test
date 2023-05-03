@@ -1,0 +1,6 @@
+<div class = "nav-search">
+  <input #searching type = "text" placeholder = "Search Products"
+    (keyup.enter)="search(searching.value)"
+    [value]="searchTerm"/>
+  <button (click)="search(searching.value)"> Search </button>
+</div>

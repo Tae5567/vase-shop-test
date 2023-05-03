@@ -1,0 +1,21 @@
+<app-search></app-search>
+
+<div class ="homepage">
+<ul>
+  <li *ngFor="let vase of vases">
+    <a routerLink="/vases/{{vase.id}}">
+      <img [src] = "vase.imageUrl" [alt] = 'vase.name' />
+      <div class ="content">
+        <div class = "name">
+          {{vase.name}}
+        </div>
+        <div class = "price">
+          <span>
+            {{vase.price | currency}}
+          </span>
+        </div>
+      </div>
+    </a>
+  </li>
+</ul>
+</div>

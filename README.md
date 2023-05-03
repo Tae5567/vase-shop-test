@@ -4,7 +4,8 @@
 
 https://vase-shop-test.herokuapp.com
 
-![app screenshot](http://localhost:9000/)
+![app screenshot](<img width="1470" alt="Screenshot 2023-05-03 at 20 52 56" src="https://user-images.githubusercontent.com/79061412/236039115-3ad03158-0a5e-4f09-9bb2-8285c1684268.png">
+)
 
 
 **Features:**

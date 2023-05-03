@@ -4,7 +4,7 @@
 
 https://vase-shop-test.herokuapp.com
 
-![app screenshot](Screenshot 2023-05-03 at 20.52.56.png)
+![app screenshot](http://localhost:9000/)
 
 
 **Features:**

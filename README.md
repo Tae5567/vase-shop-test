@@ -7,6 +7,7 @@ https://vase-shop-test.herokuapp.com
 ![app screenshot](<img width="1470" alt="Screenshot 2023-05-03 at 20 52 56" src="https://user-images.githubusercontent.com/79061412/236039115-3ad03158-0a5e-4f09-9bb2-8285c1684268.png">
 )
 
+*Heroku app not showing products on home page from database but it shows when run on local server http://localhost:9000/*
 
 **Features:**
 - Add new products
